@@ -1,0 +1,367 @@
+*{
+    margin:0;
+	padding:0;
+    font-family: Work Sans;
+}
+
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.logo span{
+	color: #FF42A5;
+}
+.logo img{
+	width: 60px;
+	height: 30px;
+}
+.logo p{
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-nav{
+    list-style: none;
+}
+.nav-link{
+
+    padding: 10px 15px;
+}
+.nav-link .fa-youtube{
+	
+	color: #E55473;
+}
+.nav-link:hover{
+	background-color: rgba(11, 2, 35, 0.10);
+}
+
+.banner{
+	display: flex;
+}
+.play-caption{
+	width: 520px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 160px;
+	padding-right: 50px;
+	background:url(images/Group\ 14.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-color: rgba(140, 87, 238, 0.03);
+}
+.play-caption h3{
+	color: #0B0223;
+	text-align:left;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.play-caption h1{
+	text-align:left;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	color: #F948B2;
+	padding-bottom: 10px;
+	
+}
+
+.play-caption .icon-para{
+   display: flex;
+   gap: 10px;
+}
+.play-caption .icon-para p{
+	padding-bottom: 30px;
+	text-align: left;
+	
+}
+.play-caption button{
+	padding: 10px 25px;
+	background-color: #E55473;
+	color: white;
+	border-color: #E55473;
+	border-radius: 30px;
+	border-width: 0px;
+	font-size: 15px;
+	
+}
+.beautiful-game-place{
+	padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 150px;
+
+	
+}
+.beautiful-game-place img{
+	width: 450px;
+	height: 400px;
+	display: block;
+}
+
+/*online-game*/
+.online-game{
+	padding: 50px 150px 50px 150px;
+	background-color: white;
+
+}
+.online-game span{
+	color: #E55473;
+}
+.online-game h1{
+    font-weight: 800;
+	font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.online-game-para{
+    text-align: center;
+    padding-top: 20px;
+    width: 490px;
+	padding-left: 300px;
+}
+.online-game-image{
+	display: flex;
+	justify-content:space-around;
+	padding-top: 50px;
+    gap: 20px;
+}
+.online-game-image p{
+	padding-top: 10px;
+}
+.single-image{
+    width: 270px;
+	height: 300px;
+	position: relative;
+	
+}
+.single-image img{
+    width: 260px;
+	height: 300px;
+}
+.overlay{
+	position: absolute;
+	border: 1px solid transparent;
+	border-radius: 10px;
+    width: 260px;
+	height: 0px;
+	background:rgba(0,0,0,.5);
+	transition: height 2s;
+}
+.single-image:hover .overlay{
+    position: absolute;
+	border: 1px solid transparent;
+	border-radius: 10px;
+    width: 260px;
+	height: 300px;
+    background:rgba(0,0,0,.5);
+	transition: height 2s ease;
+
+}
+
+.single-image .icon{
+	position:absolute;
+	left:40%;
+	bottom:10%;
+	transition: bottom 2s ease;
+}
+.single-image .icon i{
+	width:40px;
+	height:40px;
+	border:1px solid transparent;
+	border-radius:100%;
+	font-size:15px;
+	line-height:40px;
+	color: transparent;
+	text-align: center;
+	transition: color 4s ease , border 2s ease;
+}
+.single-image:hover .icon{
+    position: absolute;
+	left:40%;
+	bottom:45%;
+	transition: bottom 2s ease ;
+}
+.single-image:hover .icon i{
+	position: absolute;
+	bottom:45%;
+	color:#fff;	
+	border:1px solid #fff;
+	border-radius:100%;
+	font-size:15px;
+	line-height:40px;
+	width:40px;
+	height:40px;	
+	text-align: center;
+	transition: bottom 2s ease,color 2s ease , border 2s ease;
+}
+.watch-button{
+	position:absolute;
+	padding-top: 10px !important;
+	left: 35%;
+	bottom:0%;
+	color: transparent;
+	transition: bottom 2s ease , color 2s ease;
+}
+.single-image:hover .watch-button{
+	position:absolute;
+	bottom:40%;
+	color: #fff;
+	transition: bottom 2s ease;
+}
+/*Play-Instantly*/
+.Play-Instantly{
+	padding: 70px 120px;
+}
+.play-Instantly-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.play-Instantly-section .para{
+	width: auto;
+	text-align: end;
+}
+.play-Instantly-section .para h1{
+	font-weight: 800;
+	font-size: 40px;
+	padding-bottom: 30px;
+	width: 380px;
+}
+.play-Instantly-section .para p{
+	width: 300px;
+	padding-bottom: 30px;
+	text-align: end;
+	margin-left: 20%;
+}
+.play-Instantly-section img{
+	width: 400px;
+	height: 400px;
+}
+.Play-Instantly .single-image-play-instant img{
+	margin-top: -170px;
+	margin-left: 600px;
+   width: 250px;
+   height: 250px;
+}
+/*more-button*/
+.more-button{
+	padding-top: 10px;
+	padding-bottom:80px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.more-button-section{
+   display: flex;
+   flex-wrap: wrap;
+  flex-direction: row;
+   justify-content:center;
+   column-gap: 10px;
+
+   align-items: center;
+   
+   
+}
+.more-button .single-section{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	border: 1px solid transparent;
+	padding: 5px 10px;
+	border-radius: 50px;
+}
+.more-button .single-section:hover{
+	border: 1px solid #F948B2;
+}
+/*footer*/
+.footer-section{
+	padding: 100px 100px;
+	color: #fff;
+	background-color: #0B0223;
+}
+.footer-section .footer-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.footer-section .footer-frame p{
+	font-size: 50px;
+}
+.footer-section .footer-frame span{
+	color: #F948B2;
+	font-weight: 900;
+}
+.footer-section .footer-para{
+	display: flex;
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 10px;
+}
+.footer-section .footer-para p{
+	width: 100px;
+}
+
+.footer-section .footer-icon{
+	display: flex;
+
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+
+}
+.footer-section .footer-icon i{
+	font-size: 20px;
+	color: #fff;
+}
+.footer-section .term-condition{
+	display: flex;
+
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+}
+
+.footer-section .last-para-footer{
+	padding-top: 20px;
+	text-align: center;
+}
+.last-para-footer p{
+	width: 100%
+	 
+}
